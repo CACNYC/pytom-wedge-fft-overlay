@@ -39,10 +39,15 @@ python pytom_wedge_fft_overlay.py \
 The script writes:
 
 tomogram_fft_log_magnitude_xz.png
+
 input_angles_pytom_binary_wedge_xz.png
+
 input_angles_overlay_fft_with_wedge_contour_xz.png
+
 negated_angles_pytom_binary_wedge_xz.png, if --also-negated is used
+
 negated_angles_overlay_fft_with_wedge_contour_xz.png, if --also-negated is used
+
 wedge_fft_overlay_summary.json
 
 ## Interpretation

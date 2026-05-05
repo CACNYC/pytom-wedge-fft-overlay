@@ -1,0 +1,6 @@
+Requirements:
+
+numpy
+scipy
+matplotlib
+pytom-match-pick

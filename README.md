@@ -1,5 +1,4 @@
-# pytom-wedge-fft-overlay
-# PyTom wedge FFT overlay diagnostic
+# pytom-wedge-fft-overlay PyTom wedge FFT overlay diagnostic
 
 Diagnostic script to compare PyTom binary missing-wedge models with tomogram FFT XZ views.
 

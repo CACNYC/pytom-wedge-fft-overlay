@@ -32,3 +32,34 @@ python pytom_wedge_fft_overlay.py \
   --outdir wedge_fft_check \
   --slab-y 7 \
   --also-negated
+
+## Outputs
+
+The script writes:
+
+tomogram_fft_log_magnitude_xz.png
+input_angles_pytom_binary_wedge_xz.png
+input_angles_overlay_fft_with_wedge_contour_xz.png
+negated_angles_pytom_binary_wedge_xz.png, if --also-negated is used
+negated_angles_overlay_fft_with_wedge_contour_xz.png, if --also-negated is used
+wedge_fft_overlay_summary.json
+
+## Interpretation
+
+For each angle convention, the overlay shows where PyTom's binary missing-wedge contour falls relative to the tomogram FFT.
+
+The summary JSON also reports a heuristic score:
+
+```sampled FFT log magnitude - missing FFT log magnitude```
+
+A higher score suggests that the modeled sampled region has higher tomogram FFT signal than the modeled missing region. This is a heuristic orientation diagnostic and should be interpreted together with the overlay images.
+
+## Requirements
+
+Run this inside a conda environment where pytom-match-pick is installed.
+
+Additional Python packages:
+
+numpy
+scipy
+matplotlib

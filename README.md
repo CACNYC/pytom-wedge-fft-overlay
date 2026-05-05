@@ -28,7 +28,7 @@ The tool is intended as an orientation diagnostic, not as proof of biological ha
 python pytom_wedge_fft_overlay.py \
   --tomogram /path/to/tomogram.mrc \
   --tilt-angles /path/to/angles.tlt \
-  --voxel-size-angstrom [VOXEL-SIZE-IN-ANGSTROMS] \
+  --voxel-size-angstrom VOXEL_SIZE_ANGSTROM \
   --outdir wedge_fft_check \
   --slab-y 7 \
   --also-negated

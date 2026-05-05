@@ -32,6 +32,7 @@ python pytom_wedge_fft_overlay.py \
   --outdir wedge_fft_check \
   --slab-y 7 \
   --also-negated
+```
 
 ## Outputs
 
